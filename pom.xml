@@ -5,7 +5,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
         <groupId>com.kdp.java</groupId>
     <artifactId>Java-Projects</artifactId>
     <version>1.14-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>pom</packaging>
     <name>Testing-Sonar-Nexus</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
