@@ -1,0 +1,11 @@
+Getting key EXTERNAL-ACCESS-KEY for service instance mysql-dev as raj...
+
+{
+ "hostname": "10.0.16.64",
+ "jdbcUrl": "jdbc:mysql://10.0.16.64:3306/cf_60f5abc8_ca27_4efe_a0a9_7c170feeed10?user=RzV2dGVt0tlLspgA\u0026password=8SE6tm6o1D7EUvkB",
+ "name": "cf_60f5abc8_ca27_4efe_a0a9_7c170feeed10",
+ "password": "8SE6tm6o1D7EUvkB",
+ "port": 3306,
+ "uri": "mysql://RzV2dGVt0tlLspgA:8SE6tm6o1D7EUvkB@10.0.16.64:3306/cf_60f5abc8_ca27_4efe_a0a9_7c170feeed10?reconnect=true",
+ "username": "RzV2dGVt0tlLspgA"
+}

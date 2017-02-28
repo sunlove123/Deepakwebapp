@@ -1,0 +1,10 @@
+---
+applications:
+- name: retailapp
+  memory: 512M
+  instances: 1
+  host: retailapp
+  path: target/retailone.war
+  services:
+    - "mysql-uat"
+

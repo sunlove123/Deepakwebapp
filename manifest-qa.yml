@@ -1,0 +1,10 @@
+---
+applications:
+- name: retailapp-qa
+  memory: 512M
+  instances: 1
+  host: retailapp-qa
+  path: target/retailone.war
+  services:
+    - "mysql-qa"
+
