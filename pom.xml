@@ -5,6 +5,24 @@
 	<artifactId>retainone</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	<developers>
+        <developer>
+            <name>Deepak</name>
+            <email>deenadhayalan.b@cognizant.com</email>
+        </developer>
+    </developers> 
+<distributionManagement>  
+<repository>     
+<id>deployment</id>     
+<name>Internal Releases</name>     
+<url>http://localhost:8082/nexus/content/repositories/releases/</url>  
+</repository>  
+<snapshotRepository>     
+<id>deployment</id>     
+<name>Internal Releases</name>     
+<url>http://localhost:8082/nexus/content/repositories/snapshots/</url>  
+</snapshotRepository>
+</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
